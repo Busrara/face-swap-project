@@ -1,7 +1,9 @@
-insightface
+torch>=1.12
+torchvision>=0.13
 opencv-python
 matplotlib
-albumentations
-huggingface_hub
 scikit-learn
+albumentations
+insightface
+huggingface_hub
 numpy
