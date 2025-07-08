@@ -13,12 +13,6 @@ We apply augmentation on the source image before swapping to:
 - Reduce sharp boundaries in the swapped face
 - Make the model robust to real-world variations like brightness, blur, and shadows
 
-## Techniques include:
-- Random Brightness and Contrast adjustment
-- Hue, Saturation, and Value shifts
-- Gaussian Noise addition
-- Motion Blur
-
 ## Installation
 
 Make sure you have Python 3.7 or higher installed.
