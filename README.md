@@ -29,6 +29,11 @@ Clone the repository:
 git clone https://github.com/Busrara/face-swap-project.git
 cd face-swap-project
 
+Install the dependencies:
+```bash
+pip install -r requirements.txt
+
+
 
 
 
