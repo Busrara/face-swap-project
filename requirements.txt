@@ -1,0 +1,7 @@
+insightface
+opencv-python
+matplotlib
+albumentations
+huggingface_hub
+scikit-learn
+numpy
