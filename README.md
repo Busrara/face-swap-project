@@ -1,28 +1,45 @@
-# Face Swap 
+# Face Swap Project
 
-This project performs face swapping using [InsightFace](https://github.com/deepinsight/insightface)'s pretrained models. It includes **augmentation techniques** for improving source image adaptability and swap realism.
+## Overview
+A simple face swap application that can detect and swap faces between source and target images.
 
 ## Features
-- Pretrained face detection, landmarking, and swapping models
-- Smart quality filtering for face selection
-- Image augmentation to simulate realistic lighting and color variations
+- **Face Detection**: Automatically detects faces in both source and target images
+- **Confidence Scoring**: Measures detection confidence for better results
+- **Bounding Box Analysis**: Precise face location mapping
+- **Quality Enhancement**: Improved face swap with augmentation
 
-## Why Augmentation?
-We apply augmentation on the source image before swapping to:
-- Better match the lighting and tone of the target image
-- Reduce sharp boundaries in the swapped face
-- Make the model robust to real-world variations like brightness, blur, and shadows
+## How It Works
+1. **Detection Phase**: Scans images for faces and calculates confidence scores
+2. **Mapping Phase**: Identifies face boundaries and positions
+3. **Swap Phase**: Performs the face replacement
+4. **Enhancement Phase**: Applies improvements and augmentation
 
-## Installation
+## Technical Details
+- Minimum confidence threshold for reliable detection
+- Bounding box coordinates for precise face mapping
+- Multi stage processing for higher quality results
 
-Make sure you have Python 3.7 or higher installed.
+## Usage
+Provide source and target images. The tool will:
+- Detect faces automatically
+- Show confidence scores
+- Perform the swap
+- Apply enhancements
+- Upload final results
 
-Clone the repository:
+## Output
+- Face detection statistics
+- Confidence scores for each detected face
+- Bounding box coordinates
+- Processing status updates
 
-git clone https://github.com/Busrara/face-swap-project.git
+### Clone the Repository
 
+```bash
+git clone https://github.com/Busraracoban/face-swap-project.git
 cd face-swap-project
 
-Install the dependencies:
-```bash
 pip install -r requirements.txt
+
+
