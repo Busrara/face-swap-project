@@ -34,11 +34,10 @@ Provide source and target images. The tool will:
 - Bounding box coordinates
 - Processing status updates
 
-### Install Dependencies
-pip install -r requirements.txt
 
 ### Clone the Repository
 
 ```bash
 git clone https://github.com/Busraracoban/face-swap-project.git
 cd face-swap-project
+
