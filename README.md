@@ -4,7 +4,7 @@
 A simple face swap application that can detect and swap faces between source and target images.
 
 ## Features
-- **Face Detection**: Automatically detects faces in both source and target images
+- **Face Detection**: Detects faces in both source and target images
 - **Confidence Scoring**: Measures detection confidence for better results
 - **Bounding Box Analysis**: Precise face location mapping
 - **Quality Enhancement**: Improved face swap with augmentation
