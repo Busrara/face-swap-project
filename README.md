@@ -40,6 +40,5 @@ Provide source and target images. The tool will:
 git clone https://github.com/Busraracoban/face-swap-project.git
 cd face-swap-project
 
+### Install Dependencies
 pip install -r requirements.txt
-
-
