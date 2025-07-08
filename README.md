@@ -25,13 +25,13 @@ Make sure you have Python 3.7 or higher installed.
 
 Clone the repository:
 
-```bash
 git clone https://github.com/Busrara/face-swap-project.git
 cd face-swap-project
 
 Install the dependencies:
 ```bash
 pip install -r requirements.txt
+
 
 
 
